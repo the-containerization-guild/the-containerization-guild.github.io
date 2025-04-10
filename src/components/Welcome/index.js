@@ -1,6 +1,3 @@
-import logo from "@site/static/img/logo-square.png";
-import icon from "@site/static/img/gravity-ui--persons.png";
-
 export default function Welcome() {
     return (
         <div className="welcome viewport welcome-grid">
@@ -12,25 +9,25 @@ export default function Welcome() {
             <ul>
               <li>
                   <button className="static-button" href="#">
-                    <img src={icon} alt="Button 1"></img>
+                    <img alt="Button 1"></img>
                     Link 1
                   </button>
               </li>
               <li>
                   <button className="static-button" href="#">
-                    <img src={icon} alt="Button 2"></img>
+                    <img alt="Button 2"></img>
                     Link 2
                   </button>
               </li>
               <li>
                   <button className="static-button" href="#">
-                    <img src={icon} alt="Button 3"></img>
+                    <img alt="Button 3"></img>
                     Link 3
                   </button>
               </li>
               <li>
                   <button className="static-button" href="#">
-                    <img src={icon} alt="Button 4"></img>
+                    <img alt="Button 4"></img>
                     Link 4
                   </button>
               </li>
@@ -39,7 +36,6 @@ export default function Welcome() {
           <div className="welcome-image">
             <img
               className="logo-full"
-              src={logo}
               alt=""
             ></img>
           </div>
