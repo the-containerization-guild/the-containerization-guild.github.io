@@ -10,8 +10,8 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "OSPO Static Website Template",
-  tagline: "Powered by Docusaurus",
+  title: "The Containerization Guild",
+  tagline: "",
   favicon: "img/favicon.png",
 
   // Set the production url of your site here
@@ -22,8 +22,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "RedHatOfficial", // Usually your GitHub org/user name.
-  projectName: "static-website-template-for-ospo", // Usually your repo name.
+  organizationName: "ContainerizationGuild", // Usually your GitHub org/user name.
+  projectName: "website", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -85,22 +85,22 @@ const config = {
       navbar: {
         // title: "My Site",
         logo: {
-          alt: "Example Logo",
+          alt: "Containerization Guild Logo",
           src: "img/full-logo.png",
         },
         items: [
           {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
-            position: "left",
+            position: "right",
             label: "Docs",
           },
-          { to: "/blog", label: "Blog", position: "left" },
-          {
-            href: "https://github.com/RedHatOfficial/static-website-template-for-ospo/tree/main",
-            label: "GitHub",
-            position: "right",
-          },
+          { to: "/blog", label: "Blog", position: "right" },
+          // {
+          //   href: "https://github.com/RedHatOfficial/static-website-template-for-ospo/tree/main",
+          //   label: "GitHub",
+          //   position: "right",
+          // },
         ],
       },
 
