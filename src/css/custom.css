@@ -20,6 +20,11 @@
   src: url(fonts/RedHatDisplay-VariableFont_wght.ttf);
 }
 
+@font-face {
+  font-family: "Fredoka";
+  src: url(fonts/Fredoka-VariableFont_wdth,wght.ttf);
+}
+
 :root {
   --ifm-color-primary: #a60000;
   --ifm-color-primary-dark: #950000;
@@ -93,30 +98,10 @@
 
 /* ----------------------------- Welcome Section ---------------------------- */
 
-.welcome-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  @media screen and (max-width: 768px) {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-  }
-}
-
-.welcome-info,
-.install-gif,
-.logo-full {
-  display: block;
-}
-
 .welcome-info {
-  display: flexbox;
+  display: block;
   justify-content: center;
   padding: 10%;
-}
-
-.welcome-h1 {
-  display: inline;
-  font-weight: 500;
 }
 
 .welcome-h2 {
@@ -128,99 +113,50 @@
   }
 }
 
-.welcome-image {
+.button-group {
   display: flex;
-  justify-content: center;
+  gap: 1rem; 
+  justify-content: center; 
+  flex-wrap: wrap; 
 }
 
-.logo-full{
-  width: 50%;
-    @media screen and (max-width: 768px) {
-      display: none;
-    }
-}
-
-/* ----------------------------- Install Section ---------------------------- */
-
-.install-grid {
-  display: grid;
-  grid-template-areas: "install-info demo-graphic";
+.static-button {
   align-items: center;
-  align-content: stretch;
+  justify-content: space-between;
   justify-items: center;
-  justify-content: stretch;
-  @media screen and (max-width: 500px) {
-    grid-template-areas: "install-info"
-    "demo-graphic"
-  }
-}
-
-.install-info {
-  padding: 10%;
-
-}
-
-.install-h3 {
-  font-weight: 500;
-}
-
-.install-code {
-  /* word-break: break-all; */
-  font-family: "Red Hat Mono", monospace !important;
-  font-weight: 500;
-  padding: 1rem;
-  background-color: #262626;
   border-radius: 15px;
-  width: 100%;
+  border: 1px solid transparent;
+  margin: 12.5px 0;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  width: auto;
 }
 
-.install-code p {
+button {
   display: inline-flex;
 }
 
-.install-button {
-  @media screen and (max-width: 768px) {
-    padding: 10px;
-    font-size: larger;
-  }
+ul {
+  list-style: none;
+  padding: 0;
 }
 
-.install-graphic {
-  padding: 10%;
-}
-
-.install-gif {
-  align-self: center;
-  justify-self: center;
-  grid-area: demo-graphic;
-  width: 100%;
-  @media screen and (max-width: 1024px) {
-    width: 75%;
-  }
-}
-
-/* ------------------------------ Demo Section ------------------------------ */
-
-.demo-h1 {
-  text-align: center;
-  font-size: xx-large;
-}
-
-.demo-gif {
-  display: flex;
-  align-self: center;
-  justify-self: center;
-  width: 100%;
+h1 {
+  font-family: "Fredoka", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 48px !important;
 }
 
 /* ------------------------------ About Section ----------------------------- */
 
-.demo,
 .about {
   padding: 10%;
-}
-
-.about {
   @media screen and (max-width: 1024px) {
     padding: 15% 10%;
     @media screen and (max-width: 500px) {
@@ -332,39 +268,7 @@
   margin-block-end: 0;
 }
 
-button {
-  display: inline-flex;
-}
-
-.button-group {
-  display: flex;
-  gap: 1rem; 
-  justify-content: center; 
-  flex-wrap: wrap; 
-}
-
-.static-button {
-  align-items: center;
-  justify-content: space-between;
-  justify-items: center;
-  border-radius: 15px;
-  border: 1px solid transparent;
-  margin: 12.5px 0;
-  padding: 1rem 2rem;
-  font-size: 1rem;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: white;
-  color: black;
-  cursor: pointer;
-  transition: border-color 0.25s;
-  width: auto;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
+/* --------------------------------- Footer --------------------------------- */
 
 .footer--dark {
   --ifm-footer-background-color: #262626 !important;
