@@ -86,7 +86,8 @@ const config = {
         // title: "My Site",
         logo: {
           alt: "Containerization Guild Logo",
-          src: "img/full-logo.png",
+          src: "img/full-logo-2.png",
+          srcDark: "img/full-logo-dark-2.png"
         },
         items: [
           {
