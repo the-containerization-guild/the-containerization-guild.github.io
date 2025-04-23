@@ -96,7 +96,7 @@ const config = {
             position: "right",
             label: "Archive",
           },
-          { to: "/blog", label: "Blog", position: "right" },
+          // { to: "/blog", label: "Blog", position: "right" },
           // {
           //   href: "https://github.com/RedHatOfficial/static-website-template-for-ospo/tree/main",
           //   label: "GitHub",
