@@ -1,4 +1,5 @@
 import styles from "./styles.module.css";
+import GIF from "../../../static/img/gif-1.gif"
 
 export default function WhatHappens() {
   return (
@@ -22,9 +23,8 @@ export default function WhatHappens() {
               currently occur online each quarter. Each gathering is 2-3 hours
               long. It flies by.
             </p>
-            <img className="about-gif" alt="About Graphic 1"></img>
+            <img className="about-gif" alt="About Graphic 1" src={GIF}></img>
           </div>
-        
       </div>
     </div>
   );

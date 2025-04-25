@@ -1,4 +1,5 @@
 import styles from "./styles.module.css";
+import GIF from "../../../static/img/gif-2.gif"
 
 export default function About() {
   return (
@@ -17,7 +18,7 @@ export default function About() {
               ideas without the burden of defending the ideas.
             </p>
 
-            <img className="about-gif" alt="About Graphic 1"></img>
+            <img className="about-gif" alt="About Graphic 1" src={GIF}></img>
           </div>
         </div>
       </div>
