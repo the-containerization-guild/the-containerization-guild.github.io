@@ -1,14 +1,13 @@
 import styles from "./styles.module.css";
-import GIF from "../../../static/img/gif-2.gif"
+import GIF from "../../../static/img/gif-2.gif";
 
 export default function About() {
   return (
     <div className="about about-viewport" id="about">
       <div className="about-info">
-
-          <h1 className="about-header">About the Containerization Guild</h1>
-
-          <div className="about-grid">
+        <div className="about-grid">
+          <div>
+            <h1 className="about-header">About the Containerization Guild</h1>
             <p className="about-para" role="paragraph">
               The Containerization Guild was formed in response to rapidly
               evolving infrastructure needs and capabilities. The technology to
@@ -17,10 +16,10 @@ export default function About() {
               excited (or very concerned!) about the possibilities could share
               ideas without the burden of defending the ideas.
             </p>
-
-            <img className="about-gif" alt="About Graphic 1" src={GIF}></img>
           </div>
+          <img className="about-gif" alt="About Graphic 1" src={GIF}></img>
         </div>
       </div>
+    </div>
   );
 }

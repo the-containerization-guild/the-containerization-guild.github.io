@@ -5,10 +5,9 @@ export default function WhatHappens() {
   return (
     <div className="about about-viewport" id="about">
       <div className="about-info">
-      
-          <h1 className="about-header">What happens at Gatherings?</h1>
-
           <div className="about-grid">
+            <div>
+            <h1 className="about-header">What happens at Gatherings?</h1>
             <p className="about-para" role="paragraph">
               Gatherings are opportunities to share new and evolving ideas
               pertaining to containerization. This is a safe space to explore
@@ -22,7 +21,7 @@ export default function WhatHappens() {
               for next steps, and/or connections to likeminded folks. Gatherings
               currently occur online each quarter. Each gathering is 2-3 hours
               long. It flies by.
-            </p>
+            </p></div>
             <img className="about-gif" alt="About Graphic 1" src={GIF}></img>
           </div>
       </div>
