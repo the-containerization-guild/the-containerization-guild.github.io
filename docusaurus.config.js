@@ -59,6 +59,8 @@ const config = {
           },
           path: 'blog',
           routeBasePath: 'blog',
+          blogSidebarTitle: 'Past Gatherings',
+          blogSidebarCount: 'ALL',
           onInlineTags: "warn",
           onInlineAuthors: "warn",
           onUntruncatedBlogPosts: "warn",
@@ -90,13 +92,13 @@ const config = {
           srcDark: "img/full-logo-dark-2.png"
         },
         items: [
-          {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
-            position: "right",
-            label: "Archive",
-          },
-          // { to: "/blog", label: "Blog", position: "right" },
+          // {
+          //   type: "docSidebar",
+          //   sidebarId: "tutorialSidebar",
+          //   position: "right",
+          //   label: "Docs",
+          // },
+          { to: "/blog", label: "Archive", position: "right" },
           // {
           //   href: "https://github.com/RedHatOfficial/static-website-template-for-ospo/tree/main",
           //   label: "GitHub",
@@ -114,7 +116,7 @@ const config = {
             items: [
               {
                 label: "Past Gatherings",
-                to: "/docs/intro",
+                to: "/blog",
               },
             ],
           },

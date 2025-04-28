@@ -1,12 +1,8 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
-
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+# Add a tag here using this format:
+# nameOfTag:
+#   label:
+#   permalink:
+#   description:
 
 docusaurus:
   label: Docusaurus
@@ -17,3 +13,13 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+gathering:
+  label: Guild Gathering
+  permalink: /gathering
+  description: Posts with this tag are about a Gathering
+
+video:
+  label: Video
+  permalink: /video
+  description: Posts that contain a video
