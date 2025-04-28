@@ -140,18 +140,18 @@ const config = {
           {
             title: "More",
             items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
-              },
+              // {
+              //   label: "Blog",
+              //   to: "/blog",
+              // },
+              // {
+              //   label: "GitHub",
+              //   href: "https://github.com/",
+              // },
             ],
           },
         ],
-        // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Supported by Red Hat | CC-BY-4.0 | Built with Docusaurus`,
       },
       prism: {
         theme: prismThemes.vsLight,
