@@ -7,7 +7,7 @@ export default function Welcome() {
         <h1 className="header">Welcome to the Guild</h1>
         <div className="button-group">
           <button className="static-button" href="#">
-            Join a gathering
+            Join next gathering
           </button>
           <button className="static-button" href="#">
             Watch previous gatherings
