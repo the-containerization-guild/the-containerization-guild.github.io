@@ -24,6 +24,8 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "the-containerization-guild", // Usually your GitHub org/user name.
   projectName: "website", // Usually your repo name.
+  trailingSlash: false,
+  deploymentBranch: "gh-pages",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
