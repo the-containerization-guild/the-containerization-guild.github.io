@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus_test=self.webpackChunkdocusaurus_test||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Past Gatherings","items":[{"title":"Containerization Guild Gathering, February 2025","permalink":"/website/blog/2025-03-01-containerization-guild-gathering-february-2025","unlisted":false,"date":"2025-03-01T00:00:00.000Z"}]}')}}]);
