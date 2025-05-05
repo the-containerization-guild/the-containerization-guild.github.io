@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://the-containerization-guild.github.io/website/blog</id>
+    <id>https://the-containerization-guild.github.io/blog</id>
     <title>The Containerization Guild Blog</title>
     <updated>2025-03-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://the-containerization-guild.github.io/website/blog"/>
+    <link rel="alternate" href="https://the-containerization-guild.github.io/blog"/>
     <subtitle>The Containerization Guild Blog</subtitle>
-    <icon>https://the-containerization-guild.github.io/website/img/favicon.png</icon>
+    <icon>https://the-containerization-guild.github.io/img/favicon.png</icon>
     <entry>
         <title type="html"><![CDATA[Containerization Guild Gathering, February 2025]]></title>
-        <id>https://the-containerization-guild.github.io/website/blog/2025-03-01-containerization-guild-gathering-february-2025</id>
-        <link href="https://the-containerization-guild.github.io/website/blog/2025-03-01-containerization-guild-gathering-february-2025"/>
+        <id>https://the-containerization-guild.github.io/blog/2025-03-01-containerization-guild-gathering-february-2025</id>
+        <link href="https://the-containerization-guild.github.io/blog/2025-03-01-containerization-guild-gathering-february-2025"/>
         <updated>2025-03-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[The first public Containerization Guild Gathering, and the first gathering of 2025. Watch to find out what Red Hat container hackers, and our friendly community, are working on this year.]]></summary>
         <content type="html"><![CDATA[<p>The first public Containerization Guild Gathering, and the first gathering of 2025. Watch to find out what Red Hat container hackers, and our friendly community, are working on this year.</p>
