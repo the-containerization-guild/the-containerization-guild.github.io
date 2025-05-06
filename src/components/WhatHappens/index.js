@@ -1,12 +1,12 @@
 import styles from "./styles.module.css";
-import GIF from "../../../static/img/gif-1.gif"
+import GIF from "../../../static/img/gif-1.gif";
 
 export default function WhatHappens() {
   return (
     <div className="about about-viewport" id="about">
       <div className="about-info">
-          <div className="about-grid">
-            <div>
+        <div className="about-grid">
+          <div className="about-text">
             <h1 className="about-header">What happens at Gatherings?</h1>
             <p className="about-para" role="paragraph">
               Gatherings are opportunities to share new and evolving ideas
@@ -21,9 +21,10 @@ export default function WhatHappens() {
               for next steps, and/or connections to likeminded folks. Gatherings
               currently occur online each quarter. Each gathering is 2-3 hours
               long. It flies by.
-            </p></div>
-            <img className="about-gif" alt="About Graphic 1" src={GIF}></img>
+            </p>
           </div>
+          <img className="about-gif" alt="About Graphic 1" src={GIF}></img>
+        </div>
       </div>
     </div>
   );

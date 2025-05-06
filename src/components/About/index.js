@@ -6,8 +6,8 @@ export default function About() {
     <div className="about about-viewport" id="about">
       <div className="about-info">
         <div className="about-grid">
-          <div>
-            <h1 className="about-header">About the Containerization Guild</h1>
+          <div className="about-text">
+            <h1 className="about-header">About the Guild</h1>
             <p className="about-para" role="paragraph">
               The Containerization Guild was formed in response to rapidly
               evolving infrastructure needs and capabilities. The technology to
