@@ -14,25 +14,18 @@ const config = {
   tagline: "",
   favicon: "img/favicon.png",
 
-  // Set the production url of your site here
   url: "https://the-containerization-guild.github.io/",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "the-containerization-guild", // Usually your GitHub org/user name.
-  projectName: "website", // Usually your repo name.
+  organizationName: "the-containerization-guild", 
+  projectName: "website", 
   trailingSlash: false,
   deploymentBranch: "gh-pages",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
+
   i18n: {
     defaultLocale: "en",
     locales: ["en"],
@@ -48,10 +41,6 @@ const config = {
           routeBasePath: 'docs',
           sidebarPath: "./sidebars.js",
 
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   "https://github.com/RedHatOfficial/static-website-template-for-ospo/tree/main/",
         },
         blog: {
           showReadingTime: true,
@@ -61,18 +50,16 @@ const config = {
           },
           path: 'blog',
           routeBasePath: 'blog',
+
+          blogTitle: "The Containerization Guild",
+          blogDescription: "The Containerization Guild is a community of containerization enthusiasts who gather to share knowledge and experiences.",
           blogSidebarTitle: 'Past Gatherings',
           blogSidebarCount: 'ALL',
+
           onInlineTags: "warn",
           onInlineAuthors: "warn",
           onUntruncatedBlogPosts: "warn",
-          
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   "https://github.com/RedHatOfficial/static-website-template-for-ospo/tree/main/",
-
-          // Useful options to enforce blogging best practices
+        
           
         },
         theme: {
@@ -87,25 +74,23 @@ const config = {
     ({
       // Replace with your project's social card
       navbar: {
-        // title: "My Site",
         logo: {
           alt: "Containerization Guild Logo",
           src: "img/full-logo-2.png",
           srcDark: "img/full-logo-dark-2.png"
         },
         items: [
-          // {
-          //   type: "docSidebar",
-          //   sidebarId: "tutorialSidebar",
-          //   position: "right",
-          //   label: "Docs",
-          // },
           { to: "/blog", label: "Archive", position: "right" },
-          // {
-          //   href: "https://github.com/RedHatOfficial/static-website-template-for-ospo/tree/main",
-          //   label: "GitHub",
-          //   position: "right",
-          // },
+          {
+            href: "https://bsky.app/profile/container-guild.bsky.social",
+            label: "BlueSky",
+            position: "right",
+          },
+          {
+            href: "https://discord.gg/aJdVtxEm",
+            label: "Join our Discord!",
+            position: "right",
+          },
         ],
       },
 
@@ -122,34 +107,17 @@ const config = {
               },
             ],
           },
-          // {
-          //   title: "Community",
-          //   items: [
-          //     {
-          //       label: "Stack Overflow",
-          //       href: "https://stackoverflow.com/questions/tagged/docusaurus",
-          //     },
-          //     {
-          //       label: "Discord",
-          //       href: "https://discordapp.com/invite/docusaurus",
-          //     },
-          //     {
-          //       label: "X",
-          //       href: "https://x.com/docusaurus",
-          //     },
-          //   ],
-          // },
           {
-            title: "More",
+            title: "Community",
             items: [
-              // {
-              //   label: "Blog",
-              //   to: "/blog",
-              // },
-              // {
-              //   label: "GitHub",
-              //   href: "https://github.com/",
-              // },
+              {
+                label: "BlueSky",
+                href: "https://bsky.app/profile/container-guild.bsky.social",
+              },
+              {
+                label: "Discord",
+                href: "https://discord.gg/aJdVtxEm",
+              },
             ],
           },
         ],
