@@ -144,7 +144,7 @@
   flex-wrap: wrap; 
 }
 
-.static-button {
+.static-button-bluesky, .static-button-discord, .static-button {
   align-items: center;
   justify-content: space-between;
   justify-items: center;
@@ -165,6 +165,22 @@
 button {
   display: inline-flex;
 }
+
+.static-button:hover {
+  transition: 0.3s;
+  background-color: #d72638;
+}
+
+.static-button-bluesky:hover {
+  transition: 0.3s;
+  background-color: #0085ff;
+}
+
+.static-button-discord:hover {
+  transition: 0.3s;
+  background-color: #5865f2;
+}
+
 
 h1 {
   font-family: "Fredoka", Arial, Helvetica, sans-serif;
