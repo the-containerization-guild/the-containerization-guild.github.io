@@ -19,6 +19,11 @@ gathering:
   permalink: /gathering
   description: Posts with this tag are about a Gathering
 
+lightning:
+  label: Lightning Talk
+  permalink: /lightning-talk
+  description: Posts with this tag are Lightning talks
+
 video:
   label: Video
   permalink: /video
