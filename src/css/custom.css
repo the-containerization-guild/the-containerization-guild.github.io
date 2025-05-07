@@ -111,16 +111,17 @@
 /* ----------------------------- Welcome Section ---------------------------- */
 
 .welcome {
-  background-image: url("../../static/img/containerization-guild-backdrop.png");
+  background-image: url("../../static/img/backdrop.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
-
+/* 
 [data-theme="dark"] .welcome {
   background-image: url("../../static/img/containerization-guild-backdrop-dark.png");
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 .welcome-info {
   display: block;
