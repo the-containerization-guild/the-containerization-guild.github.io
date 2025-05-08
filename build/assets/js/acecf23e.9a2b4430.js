@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthe_containerization_guild=self.webpackChunkthe_containerization_guild||[]).push([[903],{1912:t=>{t.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"The Containerization Guild","authorsListPath":"/blog/authors"}')}}]);

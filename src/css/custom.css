@@ -37,7 +37,7 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-font-family-base: "Red Hat Display", Arial, Helvetica, sans-serif;
   --ifm-font-family-monospace: "Red Hat Mono", "Courier New", monospace;
-  background-color: whitesmoke;
+  background-color: £fff;
   color: #2e1a47;
 }
 
@@ -93,11 +93,6 @@
   }
 }
 
-.background-2 {
-  color: white;
-  background-color: #707070;
-}
-
 .welcome,
 .install,
 .demo,
@@ -110,23 +105,37 @@
 
 /* ----------------------------- Welcome Section ---------------------------- */
 
+[data-theme="dark"] .header {
+  color: #2e1a47;
+}
+
 .welcome {
   background-image: url("../../static/img/backdrop.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-/* 
-[data-theme="dark"] .welcome {
-  background-image: url("../../static/img/containerization-guild-backdrop-dark.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
 
 .welcome-info {
-  display: block;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  padding: 10%;
+  padding: 5%;
+  margin: 20%;
+  border-radius: 2rem;;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+[data-theme="dark"] .welcome-info {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.welcome-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
 }
 
 .welcome-h2 {
@@ -181,7 +190,7 @@ button {
 
 .static-button:hover {
   transition: 0.3s;
-  background-color: #d72638;
+  background-color: #eb7748;
 }
 
 .static-button-bluesky:hover {

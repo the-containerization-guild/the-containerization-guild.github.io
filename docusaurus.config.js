@@ -76,8 +76,7 @@ const config = {
       navbar: {
         logo: {
           alt: "Containerization Guild Logo",
-          src: "img/full-logo-2.png",
-          srcDark: "img/full-logo-dark-2.png"
+          src: "img/favicon.png"
         },
         items: [
           { to: "/blog", label: "Archive", position: "right" },
