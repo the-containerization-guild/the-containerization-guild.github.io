@@ -10,17 +10,21 @@ export default function Welcome() {
         <img className="welcome-logo" width="75%" src={logo1}></img>
         <img className="welcome-logo-small" width="100%" src={logo2}></img>
         <div className="button-group">
-          <button className="static-button-bluesky" href="https://bsky.app/profile/container-guild.bsky.social">
-            Follow us on BlueSky
+          <button className="static-button-bluesky">
+            <a href="https://bsky.app/profile/container-guild.bsky.social" target="_blank">
+              Follow us on BlueSky
+            </a>
           </button>
-          <button className="static-button-discord" href="https://discord.gg/aJdVtxEm">
-            Join our Discord
+          <button className="static-button-discord">
+            {" "}
+            <a href="https://discord.gg/aJdVtxEm" target="_blank">Join our Discord</a>
           </button>
-          <button className="static-button" href="#">
-            Watch previous gatherings
+          <button className="static-button">
+            {" "}
+            <a href="/blog">Watch previous gatherings</a>
           </button>
         </div>
       </div>
     </div>
   );
-};
+}

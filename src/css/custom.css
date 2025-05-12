@@ -201,6 +201,21 @@ button {
   display: inline-flex;
 }
 
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+button a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+button a:visited {
+  text-decoration: none;
+  color: white;
+}
+
 .static-button:hover {
   transition: 0.3s;
   background-color: #eb7748;
