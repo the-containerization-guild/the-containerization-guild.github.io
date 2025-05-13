@@ -17,7 +17,7 @@ export default function Welcome() {
           </button>
           <button className="static-button-discord">
             {" "}
-            <a href="https://discord.gg/aJdVtxEm" target="_blank">Join our Discord</a>
+            <a href="https://discord.gg/78UWpqumcm" target="_blank">Join our Discord</a>
           </button>
           <button className="static-button">
             {" "}
