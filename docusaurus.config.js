@@ -14,17 +14,23 @@ const config = {
   tagline: "",
   favicon: "img/favicon.png",
 
-  url: "https://the-containerization-guild.github.io/",
-  baseUrl: "/",
+  // When forking or editing the site, please change the URL, organisationName and projectName to your own.
 
-  organizationName: "the-containerization-guild", 
-  projectName: "website", 
+  // url: "https://containerizationguild.org/",
+  // baseUrl: "/",
+  // organizationName: "the-containerization-guild",
+  // projectName: "the-containerization-guild.github.io",
+
+  url: "https://containerizationguild.org/",
+  baseUrl: "/",
+  organizationName: "the-containerization-guild",
+  projectName: "the-containerization-guild.github.io",
+
   trailingSlash: false,
   deploymentBranch: "gh-pages",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-
 
   i18n: {
     defaultLocale: "en",
@@ -37,10 +43,9 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          path: 'docs',
-          routeBasePath: 'docs',
+          path: "docs",
+          routeBasePath: "docs",
           sidebarPath: "./sidebars.js",
-
         },
         blog: {
           showReadingTime: true,
@@ -48,19 +53,18 @@ const config = {
             type: ["rss", "atom"],
             xslt: true,
           },
-          path: 'blog',
-          routeBasePath: 'blog',
+          path: "blog",
+          routeBasePath: "blog",
 
           blogTitle: "The Containerization Guild",
-          blogDescription: "The Containerization Guild is a community of containerization enthusiasts who gather to share knowledge and experiences.",
-          blogSidebarTitle: 'Past Gatherings',
-          blogSidebarCount: 'ALL',
+          blogDescription:
+            "The Containerization Guild is a community of containerization enthusiasts who gather to share knowledge and experiences.",
+          blogSidebarTitle: "Past Gatherings",
+          blogSidebarCount: "ALL",
 
           onInlineTags: "warn",
           onInlineAuthors: "warn",
           onUntruncatedBlogPosts: "warn",
-        
-          
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -76,7 +80,7 @@ const config = {
       navbar: {
         logo: {
           alt: "Containerization Guild Logo",
-          src: "img/favicon.png"
+          src: "img/favicon.png",
         },
         items: [
           { to: "/blog", label: "Archive", position: "right" },
