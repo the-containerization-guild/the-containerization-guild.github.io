@@ -139,4 +139,4 @@ dist
 .DS_Store
 
 # Build files (these are in the gh-pages repo)
-build/
+build

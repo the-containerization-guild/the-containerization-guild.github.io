@@ -118,6 +118,7 @@
 
 .welcome-info {
   display: flex;
+  text-align: center;
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -153,10 +154,8 @@
 
 .welcome-h1 {
   font-weight: 500;
-  padding-right: 10rem;
   @media screen and (max-width: 768px) {
     font-size: medium;
-    padding: 0%;
     font-size: 1rem;
   }
 }
