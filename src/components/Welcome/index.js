@@ -6,7 +6,7 @@ export default function Welcome() {
   return (
     <div className="welcome viewport">
       <div className="welcome-info">
-        <h1 className="header">Welcome to</h1>
+        <h1 className="welcome-h1">Welcome to</h1>
         <img className="welcome-logo" width="75%" src={logo1}></img>
         <img className="welcome-logo-small" width="100%" src={logo2}></img>
         <div className="button-group">
